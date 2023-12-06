@@ -1,0 +1,223 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.active{
+    color: red;
+    margin-left: -100px;
+}
+a:hover{
+    color: red;
+}
+
+.bgimg{
+    background-color: black;
+}
+.bgimg img{ 
+    height: 100vh;
+    width: 100%;
+    opacity: 25%;
+    position: relative;
+}
+
+.mainheading { 
+    position: absolute;
+    top:50%;
+    color: aliceblue;
+    left: 10%;
+}
+.mainheading h1{
+    font-size: 100px;
+    margin-top: -80px;
+}
+.mainheading h3{
+    font-size: 60px;
+    margin-top: -80px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.mainheading p{
+   font-size: 25px;
+   letter-spacing: 4px;
+   margin-top: -60px;
+}
+
+.navbar{
+   
+    height: 100px;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    box-shadow: 5px 5px 10px 2px rgba(143, 143, 143, 0.8);
+}
+nav{
+    padding-top:40px ;
+    text-align:center;
+}
+nav a{
+    text-decoration: none;
+    
+    font-weight: bold;
+    padding-left: 10%;
+    color: black;
+    font-size: 20px;
+}
+.about{
+    display: flex;
+    padding-top: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 400px;
+    
+}
+.about1{
+    padding-top: 100px;
+    flex: 1;
+    padding: 50px;
+    
+}
+.about2{
+    padding-top: 100px;
+    flex: 1;
+    border-left: 1px solid rgb(196, 196, 196);
+    padding: 50px;
+}
+.about3{
+    padding-top: 100px; 
+    flex: 1;
+    border-left: 1px solid rgb(196, 196, 196);
+    padding: 50px;
+}
+hr{
+    width: 30px;
+    margin-left: -2px;
+}
+.education{
+    padding-top: 120px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 600px;
+    border-top: 1px solid rgb(165, 165, 165);
+}
+.heading{
+    font-size: 17px;
+    font-weight: 700;
+}
+.desc{
+   padding-left: 100px;
+}
+.heading td{
+    
+
+}
+
+table{
+    width: 100%; 
+    border-collapse:collapse ;
+}
+
+td{
+    
+    height: 50px;
+    padding-left: 50px;
+}
+.contact{
+    display: flex;
+    border-top: 1px solid rgb(165, 165, 165);
+}
+.contactleft{
+    flex:1;
+
+}
+.contactright{
+    flex:1;
+}
+html {
+    scroll-behavior: smooth;
+}
+.buttongetstarted {
+    position: absolute;
+    
+    border: 1px solid #3498db; 
+        background-color: transparent; 
+        height: 50px; 
+        width: 200px; 
+        color: #ffffff; 
+        font-size: 1.5em; 
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+  }
+  .contact{
+    display: flex;
+    padding-left: 100px;
+    font-size: 30px;
+    
+  }
+  .contactleft{
+    flex:1;
+    font-size: 18px;
+    
+    padding-left: -500px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+  .contactleft h3{
+    font-size: 30px;
+  }
+  .contactright{
+    flex: 1;
+    
+
+  }
+  .getintouch{
+    width: 200px;
+   
+  }
+  img{
+    height: 300px;
+    width: auto;
+    
+
+  }
+
+
+ 
+
+.mainheading h1 {
+    
+    animation: slideInRight 2s forwards, fadeIn 1s forwards;
+}
+
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
